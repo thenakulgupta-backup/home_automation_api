@@ -1,0 +1,7 @@
+node_modules
+package-lock.json
+.env
+.DS_Store
+uploads/*.pdf
+public/
+database.db

@@ -1,0 +1,32 @@
+{
+  "name": "funckydude",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=local && nodemon --ignore public server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/hapi": "^21.3.0",
+    "@hapi/inert": "^7.1.0",
+    "@hapi/vision": "^7.0.1",
+    "app-root-path": "^3.1.0",
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3",
+    "firebase-admin": "^11.8.0",
+    "fs": "^0.0.1-security",
+    "good": "^8.1.2",
+    "good-squeeze": "^5.1.0",
+    "joi": "^17.7.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.42",
+    "mysql2": "^3.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.27.0",
+    "sqlite3": "^5.1.6"
+  }
+}
